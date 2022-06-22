@@ -92,9 +92,8 @@
     background-color: #000000;
 }
 
-.figma img {
+.iconFigma {
     width: 2rem;
-    
 }
 
 .listaItens {
@@ -146,6 +145,10 @@
         font-size: 1.8rem;
     }
 
+    .iconFigma {
+        width: 1.8rem;
+    }
+
     .botaoListaDeCursos {
         font-size: 1.8rem;
     }
@@ -186,6 +189,10 @@
 
     .codigos {
         font-size: 1.6rem;
+    }
+
+    .iconFigma {
+        width: 1.6rem;
     }
 }
 
