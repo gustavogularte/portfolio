@@ -44,6 +44,9 @@
 }
 
 .imgProjeto {
+    border: solid 0.4rem #21272B;
+    border-radius: 0.5rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
     width: 100%;
 }
 
@@ -132,7 +135,6 @@
 
     .tituloProjeto {
         font-size: 1.6rem;
-        padding-top: 0rem;
     }
 }
 

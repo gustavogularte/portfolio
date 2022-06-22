@@ -195,4 +195,12 @@
     .detalheFormacao {
         width: 30rem;
     }
+
+    .formacaoContent {
+        padding-top: 5rem;
+    }
+
+    .habilidades {
+        padding-top: 3rem;
+    }
 }
