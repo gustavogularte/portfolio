@@ -1,0 +1,198 @@
+.formacao {
+    background-color: #0F1214;
+}
+
+.formacaoArea {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 130rem;
+    margin: 0rem auto;
+    padding: 0rem 2rem;
+}
+
+.formacaoContent {
+    padding-top: 13rem;
+}
+
+.hat {
+    padding-top: 11rem;
+}
+
+.detalheFormacao {
+    display: block;
+    margin: 0rem auto;
+    background-color: #402600;
+    height: 0.4rem;
+    width: 35rem;
+    border-radius: 0.4rem;
+}
+
+.pfor {
+    margin: 0rem;
+}
+
+.especialidades {
+    color: #F0F2F4;
+    font-size: 2.4rem;
+}
+
+.habilidades {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding-top: 5rem;
+}
+
+.logoCodigos {
+    width: 4rem;
+}
+
+.tituloHabilidades {
+    letter-spacing: 0.05rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.tituloHabilidades h4 {
+    color: #606060;
+}
+
+.listaCodigos {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 0rem 5rem 0rem;
+}
+
+.codigos {
+    color: #F0F2F4;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background-color: green;
+    font-size: 2rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5rem;
+}
+
+.html {
+    background-color: #E04A1A;
+}
+
+.css {
+    background-color: #1682D9;
+}
+
+.js {
+    background-color: #DDC816;
+}
+
+.figma {
+    background-color: #000000;
+}
+
+.figma img {
+    width: 2rem;
+    
+}
+
+.listaItens {
+    display: grid;
+    gap: 2rem;
+    padding: 2rem 0rem 5rem 0rem;
+}
+
+.itens {
+    display: grid;
+    gap: 1rem;
+    color: #F0F2F4;
+    font-size: 2rem;
+}
+
+.infoSeg {
+    color: #606060;
+    font-weight: 400;
+}
+
+.botaoCursos {
+    padding-bottom: 6.5rem;
+}
+
+.botaoListaDeCursos {
+    background-color: #246FA4;
+    padding: 1.5rem 3rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.3);
+}
+
+
+@media (max-width: 1200px) {
+
+    .especialidades {
+        font-size: 2rem;
+    }
+
+    .logoCodigos {
+        width: 3rem;
+    }
+
+    .tituloHabilidades {
+        font-size: 1.6rem;
+    }
+
+    .codigos {
+        font-size: 1.8rem;
+    }
+
+    .botaoListaDeCursos {
+        font-size: 1.8rem;
+    }
+}
+
+
+@media (max-width: 850px) {
+
+    .hat {
+        display: none;
+    }
+
+    .formacaoContent {
+        padding-top: 10rem;
+    }
+
+    .pfor {
+        padding-top: 0rem;
+        padding-bottom: 5rem;
+    }
+    
+    .formacaoArea {
+        grid-template-columns: 1fr;
+        max-width: 45rem;
+    }
+
+    .especialidades {
+        font-size: 1.8rem;
+    }
+
+    .logoCodigos {
+        width: 2.5rem;
+    }
+
+    .tituloHabilidades {
+        font-size: 1.4rem;
+    }
+
+    .codigos {
+        font-size: 1.6rem;
+    }
+}
+
+
+@media (max-width: 500px) {
+
+    .detalheFormacao {
+        width: 30rem;
+    }
+}

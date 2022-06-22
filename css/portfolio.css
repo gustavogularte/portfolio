@@ -1,0 +1,153 @@
+.portfolio {
+    background-color: #181A1E;
+    padding: 0rem 2rem;
+}
+
+.tituloArea {
+    max-width: 130rem;
+    margin: 0rem auto;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.tituloSeg {
+    color: #F0F2F4;
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+}
+
+.descTitulo {
+    color: #D4DADE;
+    padding: 1rem 0rem 1.5rem 0rem;
+    font-size: 1.4rem;
+}
+
+.detalhePortfolio {
+    display: block;
+    margin: 0rem auto;
+    background-color: #402600;
+    height: 0.4rem;
+    width: 30rem;
+    border-radius: 0.4rem;
+}
+
+.destaques ul {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    text-align: center;
+    padding: 13rem 0rem;
+}
+
+.destaques li {
+    max-width: 41rem;
+}
+
+.imgProjeto {
+    width: 100%;
+}
+
+.tituloProjeto {
+    color: #F0F2F4;
+    padding: 1rem 0rem;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.descProjeto {
+    color: #B7C1C8;
+    font-size: 1.4rem;
+}
+
+.botao {
+    text-align: center;
+    padding-bottom: 6.5rem;
+}
+
+.botaoProjeto {
+    background-color: #246FA4;
+    padding: 1.5rem 3rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.3);
+}
+
+
+@media (max-width: 1200px) {
+
+    .tituloSeg {
+        font-size: 3.6rem;
+    }
+
+    .detalhePortfolio {
+        width: 25rem;
+    }
+
+    .destaques ul{
+        gap: 3rem;
+    }
+
+    .tituloProjeto {
+        font-size: 1.8rem;
+    }
+
+    .botaoProjeto {
+        font-size: 1.8rem;
+    }
+}
+
+
+@media (max-width: 1010px) {
+
+    .tituloSeg {
+        font-size: 3.2rem;
+    }
+
+    .descTitulo, .descProjeto {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media (max-width: 850px) {
+
+    .tituloSeg {
+        font-size: 2.8rem;
+    }
+
+    .detalhePortfolio {
+        width: 22rem;
+    }
+
+    .destaques ul {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5rem;
+        padding: 10rem 0rem;
+    }
+
+    .destaques li {
+        justify-self: center;
+    }
+
+    .tituloProjeto {
+        font-size: 1.6rem;
+        padding-top: 0rem;
+    }
+}
+
+
+@media (max-width: 500px) {
+
+    .tituloSeg {
+        font-size: 2.6rem;
+    }
+
+    .destaques ul {
+        padding: 10rem 0rem;
+    }
+
+    .botaoProjeto {
+        font-size: 1.6rem;
+    }
+}
