@@ -34,6 +34,7 @@
 .especialidades {
     color: #F0F2F4;
     font-size: 2.4rem;
+    font-weight: 600;
 }
 
 .habilidades {
@@ -53,6 +54,7 @@
     gap: 1rem;
     align-items: center;
     font-size: 1.8rem;
+    font-weight: 600;
 }
 
 .tituloHabilidades h4 {
@@ -72,6 +74,7 @@
     align-items: center;
     background-color: green;
     font-size: 2rem;
+    font-weight: 500;
     padding: 0.5rem 1.5rem;
     border-radius: 5rem;
 }
@@ -107,6 +110,7 @@
     gap: 1rem;
     color: #F0F2F4;
     font-size: 2rem;
+    font-weight: 500;
 }
 
 .infoSeg {
@@ -122,8 +126,15 @@
     background-color: #246FA4;
     padding: 1.5rem 3rem;
     font-size: 2rem;
+    font-weight: 400;
     border-radius: 0.5rem;
     box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.3);
+}
+
+.botaoListaDeCursos:hover {
+    color: #E1F4FF;
+    background-color: #042B46;
+    transition: 0.3s;
 }
 
 

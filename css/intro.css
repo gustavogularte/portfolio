@@ -21,6 +21,7 @@
     color: #F0F2F4;
     font-family:'Fira Code', monospace;
     font-size: 6rem;
+    font-weight: 600;
     padding-bottom: 3rem;
 }
 
@@ -28,7 +29,7 @@
     color: #3583BA;
     font-family: 'Fira Code', monospace;
     font-weight: 300;
-    font-size: 4.rem;
+    font-size: 4rem;
     line-height: 6rem;
     padding-bottom: 1rem;
 }
