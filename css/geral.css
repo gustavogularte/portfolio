@@ -23,3 +23,22 @@ h2 {
     font-size: 4rem;
     font-weight: 600;
 }
+
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+#experiencia:target {
+    scroll-margin-top: 1.4rem;
+}
+
+#formacao:target {
+    scroll-margin-top: 1.4rem;
+}
+
+footer:target {
+    scroll-margin-top: 1.4rem;
+}
